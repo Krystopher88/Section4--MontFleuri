@@ -14,6 +14,21 @@ h3 {
     font-family: Merriweather;
 }
 
+.button-discover{
+    text-transform: uppercase;
+    background-image: url(/assets/imgs/button.png);
+    background-repeat: no-repeat;
+    background-size: 170px 87px;
+    background-position: center center;
+    border: none;
+    padding: 3rem;
+    text-align: center;
+}
+
+body{
+    background-image: url(/assets/imgs/bg);
+}
+
 .fixed_logo{
     position: fixed;
     left: 55px;
@@ -75,17 +90,6 @@ h3 {
     font-size: 1.2rem;
 }
 
-.hero-banner .container-prez .button-discover{
-    text-transform: uppercase;
-    background-image: url(/assets/imgs/button.png);
-    background-repeat: no-repeat;
-    background-size: 170px 87px;
-    background-position: center center;
-    border: none;
-    padding: 3rem;
-    text-align: center;
-}
-
 .hero-banner .scroll{
     display: flex;
     flex-direction: column;
@@ -95,4 +99,64 @@ h3 {
 
 .hero-banner .scroll .scroll-button{
     margin-bottom: 0.8rem;
+}
+
+main{
+    background-color: #121212;
+    background-image: url(/assets/imgs/bg.png);
+}
+
+main .products{
+    padding: 180px 15%;
+    background-image: url(/assets/imgs/produits.png),
+    url(/assets/imgs/beer_cpas.png),
+    url(/assets/imgs/beer_caps.png),
+    url(/assets/imgs/pattern_logo.png),
+    url(/assets/imgs/beer_glass_low.png),
+    url(/assets/imgs/carte_postal.png),
+    url(/assets/imgs/photos_souvenir.png);
+    background-position: -120px -80px,
+    -30px 100px,
+    110% 170px,
+    110% 45%,
+    110% 35%,
+    -23% 65%,
+    100% 90%;
+    background-repeat: no-repeat;
+}
+
+main .products .right-content{
+    display: flex;
+    justify-content: end;
+}
+
+main .products .left-content{
+    margin-top: 70%;
+}
+
+main .products .container-content{
+    border: 6px solid #cbbba0;
+    padding: 0 4.5rem;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main .products .container-content span{
+    display: block;
+    font-size: 2.5rem;
+}
+
+main .products .container-content h3{
+border-top: 2px solid #cbbba0;
+border-bottom: 2px solid #cbbba0;
+padding: 1rem 0;
+text-transform: uppercase;
+}
+
+main .products .container-content article{
+    padding: 2.5rem;
+    border-bottom: 2px solid #cbbba0;
+    margin-bottom: 1rem;
 }
