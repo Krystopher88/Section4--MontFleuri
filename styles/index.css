@@ -5,9 +5,13 @@
     box-sizing: border-box;
     color: #cbbba0;
     scroll-behavior: smooth;
-    font-family: 'Merriweather', serif;
-    font-family: 'Oswald', sans-serif;
     font-size: 16px;
+}
+
+h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: Merriweather;
 }
 
 .fixed_logo{
@@ -17,7 +21,7 @@
 }
 
 .hero-banner{
-    background-image: url(/assets/imgs/bubble.png);
+    background-image: url(/assets/imgs/bgheader);
     background-repeat: no-repeat;
     height: 100vh;
     object-fit: cover;
@@ -33,9 +37,62 @@
     display: flex;
     align-items: center;
     gap: 4rem;
+    margin-top: 1.5rem;
 }
 
 .hero-banner header nav ul li a{
     text-transform: uppercase;
     font-size: 0.7rem;
+}
+
+.hero-banner .container-prez{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.hero-banner .container-prez h3{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.hero-banner .container-prez .line{
+    background-color: #cbbba0;
+    height: 2px;
+    width: 280px;
+    margin-bottom: 1.8rem
+}
+
+
+.hero-banner .container-prez article{
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.hero-banner .container-prez .button-discover{
+    text-transform: uppercase;
+    background-image: url(/assets/imgs/button.png);
+    background-repeat: no-repeat;
+    background-size: 170px 87px;
+    background-position: center center;
+    border: none;
+    padding: 3rem;
+    text-align: center;
+}
+
+.hero-banner .scroll{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.hero-banner .scroll .scroll-button{
+    margin-bottom: 0.8rem;
 }
