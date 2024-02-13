@@ -39,6 +39,7 @@ article{
     background-repeat: no-repeat;
     background-size: 170px 87px;
     background-position: center center;
+    background-color: transparent;
     border: none;
     padding: 3rem;
     text-align: center;
@@ -277,3 +278,55 @@ main .tastings .tasting-content-right p{
     font-family: Oswald;
     font-weight: bold;
 }
+
+.contact{
+    background-image: url(/assets/imgs/photo.png);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10% 15%;
+}
+
+.contact .contact-content-left{
+    width: 50%;
+}
+
+.contact .contact-content-left h2{
+    text-transform: none;
+    font-size: 4.5rem;
+}
+
+.contact .contact-content-left .content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact .contact-content-left .content span{    
+    font-weight: bold;
+}
+
+.contact .contact-content-left .content p{
+    font-size: 1.5rem;
+}
+
+.contact .contact-content-right{
+    width: 45%;
+}
+
+.contact .contact-content-right form{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact-content-right form input,
+.contact .contact-content-right form textarea{
+    background: none;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #cbbba0;
+    margin-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
