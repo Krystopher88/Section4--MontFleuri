@@ -17,7 +17,6 @@ h2{
 h3 {
     font-size: 28px;
     text-transform: uppercase;
-    font-family: Merriweather;
 }
 
 h4{
@@ -328,5 +327,47 @@ main .tastings .tasting-content-right p{
     margin-top: 1.5rem;
     padding-bottom: 0.5rem;
     font-size: 1.2rem;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem;
+}
+
+footer .social-media{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer .social-media i{
+    border: 2px solid #cbbba0;
+    border-radius: 100%;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+footer nav a:not(:last-child){
+    border-right: 1px solid #cbbba0;
+    padding-right: 1.5rem;
+}
+
+footer nav a:not(:first-child){
+    padding-left: 1.5rem;
+}
+
+footer p{
+    color: #cbbba0;
 }
 
