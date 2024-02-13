@@ -15,21 +15,26 @@ h2{
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 1.7rem;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
 h4{
     color: black;
+    font-family: "Oswald";
+    font-weight: lighter;
+}
+
+article{
+    font-family: "Oswald";
+    font-weight: lighter;
+    font-size: 1.2rem;
 }
 
 p{
     color: black;
-}
-
-article{
-    font-family: Oswald;
-    font-size: 1.2rem;
 }
 
 .button-discover{
@@ -42,6 +47,9 @@ article{
     border: none;
     padding: 3rem;
     text-align: center;
+    font-size: 1.4rem;
+    font-family: "Oswald";
+    font-weight: lighter;
 }
 
 body{
@@ -77,6 +85,8 @@ body{
 .hero-banner header nav ul li a{
     text-transform: uppercase;
     font-size: 0.7rem;
+    font-family: "Merriweather";
+    font-weight: 300;
 }
 
 .hero-banner .container-prez{
@@ -106,7 +116,6 @@ body{
     margin: 0 auto;
     margin-bottom: 2rem;
     text-align: center;
-    font-size: 1.2rem;
 }
 
 .hero-banner .scroll{
@@ -168,10 +177,11 @@ main .products .container-content span{
 }
 
 main .products .container-content h3{
-border-top: 2px solid #cbbba0;
-border-bottom: 2px solid #cbbba0;
-padding: 1rem 0;
-text-transform: uppercase;
+    border-top: 2px solid #cbbba0;
+    border-bottom: 2px solid #cbbba0;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 main .products .container-content article{
@@ -247,8 +257,18 @@ main .tastings .tasting-content-left{
     width: 50%;
 }
 
+main .tastings .tasting-content-left h2{
+    font-size: 4.5rem;
+    font-family: "Oswald";
+    font-weight: lighter;
+    margin-bottom: 2rem;
+    text-transform: none;
+}
+
 main .tastings .tasting-content-left p{
     font-size: 1.5rem;
+    font-family: "Oswald";
+    font-weight: lighter;
 }
 
 main .tastings .tasting-content-left img{
@@ -270,29 +290,23 @@ main .tastings .tasting-content-right i{
 }
 
 main .tastings .tasting-content-right h4{
-    margin-bottom: 2rem;   
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
 }
 
 main .tastings .tasting-content-right p{
     font-family: Oswald;
-    font-weight: bold;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .contact{
-    background-image: url(/assets/imgs/photo.png);
+    background-image: url(/assets/imgs/photo.jpg);
+    background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0;
     padding: 10% 15%;
-}
-
-.contact .contact-content-left{
-    width: 50%;
-}
-
-.contact .contact-content-left h2{
-    text-transform: none;
-    font-size: 4.5rem;
 }
 
 .contact .contact-content-left .content{
@@ -300,12 +314,25 @@ main .tastings .tasting-content-right p{
     margin-bottom: 50px;
 }
 
+.contact .contact-content-left h2{
+    font-size: 4.5rem;
+    color: #cbbba0;
+    text-transform: none;
+    font-family: "Oswald";
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
 .contact .contact-content-left .content span{    
     font-weight: bold;
+    font-family: "Oswald";
+    color: #cbbba0;
 }
 
 .contact .contact-content-left .content p{
     font-size: 1.5rem;
+    font-family: "Oswald";
+    color: #cbbba0;
 }
 
 .contact .contact-content-right{
@@ -324,10 +351,16 @@ main .tastings .tasting-content-right p{
     width: 100%;
     border: none;
     border-bottom: 2px solid #cbbba0;
-    margin-top: 1.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding: 0.2rem;
 }
+.contact .contact-content-right form input::placeholder,
+.contact .contact-content-right form textarea::placeholder{
+    font-size: 1.2rem;
+    font-family: Oswald;
+    color: #cbbba0;
+}
+
 
 footer{
     background-color: black;
@@ -361,6 +394,8 @@ footer nav{
 footer nav a:not(:last-child){
     border-right: 1px solid #cbbba0;
     padding-right: 1.5rem;
+    font-size: 0.8rem;
+    font-family: "Merriweather";
 }
 
 footer nav a:not(:first-child){
@@ -369,5 +404,7 @@ footer nav a:not(:first-child){
 
 footer p{
     color: #cbbba0;
+    font-size: 0.7rem;
+    font-family: "Merriweather";
 }
 
