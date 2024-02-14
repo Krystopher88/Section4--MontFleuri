@@ -42,8 +42,10 @@
     }
 }
 
-@media (min-width: 768px){
-
+@media (min-width: 800px){
+    .nav-mobile{
+        display: none !important;
+    }
 }
 
 @media (max-width: 480px){

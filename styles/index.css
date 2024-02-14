@@ -40,7 +40,7 @@ p{
 
 .button-discover{
     text-transform: uppercase;
-    background-image: url(../assets/imgs/button.png);
+    background-image: url(../assets/imgs/button.webp);
     background-repeat: no-repeat;
     background-size: 170px 87px;
     background-position: center center;
@@ -54,7 +54,7 @@ p{
 }
 
 body{
-    background-image: url(../assets/imgs/bg);
+    background-image: url(../assets/imgs/bg.webp);
 }
 
 .fixed_logo{
@@ -131,18 +131,18 @@ body{
 
 main{
     background-color: #121212;
-    background-image: url(../assets/imgs/bg.png);
+    background-image: url(../assets/imgs/bg.webp);
 }
 
 main .products{
     padding: 180px 15%;
-    background-image: url(../assets/imgs/produits.png),
-    url(../assets/imgs/beer_cpas.png),
-    url(../assets/imgs/beer_caps.png),
-    url(../assets/imgs/pattern_logo.png),
-    url(../assets/imgs/beer_glass_low.png),
-    url(../assets/imgs/carte_postal.png),
-    url(../assets/imgs/photos_souvenir.png);
+    background-image: url(../assets/imgs/produits.webp),
+    url(../assets/imgs/beer_cpas.webp),
+    url(../assets/imgs/beer_caps.webp),
+    url(../assets/imgs/pattern_logo.webp),
+    url(../assets/imgs/beer_glass_low.webp),
+    url(../assets/imgs/carte-postal.webp),
+    url(../assets/imgs/photos_souvenir.webp);
     background-position: -120px -80px,
     -30px 100px,
     110% 170px,
@@ -191,8 +191,8 @@ main .products .container-content article{
 }
 
 main .recipes{
-    background-image: url(../assets/imgs/houblon.png),
-    url(../assets/imgs/blé.png);
+    background-image: url(../assets/imgs/houblon.webp),
+    url(../assets/imgs/blé.webp);
     background-position: -20% 0,
     160% 10px;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@ main .recipes{
 }
 
 main .recipes h2{
-    background-image: url(../assets/imgs/title_recipes.png);
+    background-image: url(../assets/imgs/title-recipes.webp);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -241,8 +241,8 @@ main .recipes .recipes-container .recipe-left-content article{
 }
 
 main .tastings{
-    background-image:url(../assets/imgs/opener.png),url(../assets/imgs/beercaps.png),
-    url(../assets/imgs/bgTastings.png)
+    background-image:url(../assets/imgs/opener.webp),url(../assets/imgs/beercaps.webp),
+    url(../assets/imgs/bgTastings.webp)
     ;
     background-repeat: no-repeat;
     background-position: 5% 80%, -115px -20px, 0 0;
@@ -301,7 +301,7 @@ main .tastings .tasting-content-right p{
 }
 
 .contact{
-    background-image: url(../assets/imgs/photo.jpg);
+    background-image: url(../assets/imgs/photo.webp);
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -424,7 +424,7 @@ footer p{
 }
 
 .nav-mobile .header-expand{
-    background-image:url(../assets/imgs/bgTastings.png);
+    background-image:url(../assets/imgs/bgTastings.webp);
     border-radius: 1%;
     position: fixed;
     top: 0;
@@ -432,6 +432,7 @@ footer p{
     width: 100%;
     height: auto;
     padding: 1rem;
+    
 }
 
 .nav-mobile .header-expand nav ul {
