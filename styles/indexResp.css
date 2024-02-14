@@ -1,0 +1,132 @@
+@media (max-width: 768px){
+    .fixed_logo{
+        display: none;
+    }
+
+    .hero-banner header{
+        display: none;
+    }
+
+    .hero-banner .container-prez h3{
+        text-align: center;
+    }
+
+    .hero-banner .container-prez article{
+        width: 80% !important;
+    }
+
+    .hero-banner .scroll{
+        margin-bottom: 10rem;
+    }
+
+    main .products{
+        background-image: none !important;
+    }
+
+    main .products .container-content{
+        width: 100% !important;
+    }
+
+    main .recipes{
+        width: 100% !important;
+        background-image: none !important;
+    }
+
+    main .recipes .recipes-container .recipe-right-content,
+    main .recipes .recipes-container .recipe-left-content{
+        width: 80% !important;
+    }
+
+    footer nav{
+        display: none;
+    }
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (max-width: 480px){
+    main .products .container-content{
+        padding: 0 !important;
+    }
+
+    main .recipes{
+        width: 100% !important;
+        background-image: none !important;
+    }
+
+    main .recipes h2{
+        background-size: 320px 120px;
+        font-size: 1.8rem;
+    }
+
+    main .recipes .recipes-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .recipes .recipes-container .recipe-right-content,
+    main .recipes .recipes-container .recipe-left-content{
+        width: 80% !important;
+    }
+
+    main .tastings{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .tastings .tasting-content-left{
+        margin-top: 2rem;
+        width: 100% !important;
+    }
+
+    main .tastings .tasting-content-left h2{
+        font-size: 2.5rem !important;
+    }
+
+    main .tastings .tasting-content-left img{
+        margin-top: 0 !important;
+        margin-left: 60% !important;
+    }
+
+    main .tastings .tasting-content-right{
+        margin-top: 2rem;
+        width: 100% !important;
+    }
+
+    main .contact{
+        flex-direction: column;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .contact .contact-content-left h2{
+        font-size: 2.5rem !important;
+    }
+
+    .contact .contact-content-left img{
+        width: 35%;
+    }
+
+    .contact .contact-content-left .content{
+        width: 100% !important;
+    }
+
+    .contact .contact-content-right{
+        width: 100% !important;
+    }
+
+    footer{
+        padding: 2rem !important;
+    }
+
+    footer nav{
+        display: none;
+    }
+
+    footer p{
+        text-align: center;
+    }
+}
+
